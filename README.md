@@ -23,7 +23,7 @@ All tokens are minted during deployment and assigned to the deployer’s wallet.
 ---
 
 ## 📂 Project Structure
-
+<pre>
 my-token/
 ├── contracts/
 │ └── MyToken.sol
@@ -35,7 +35,7 @@ my-token/
 │ ├── allowance.png
 │ └── approve.png
 └── README.md
-
+</pre>
 ---
 
 ## ⚙️ Features Implemented
