@@ -73,7 +73,7 @@ contract MyToken {
         require(balanceOf[msg.sender] >= __value, "Not enough balance");
 
         // Deduct amount from sender
-        balanceOf[msg.sender] -= _value;
+        balanceOf[msg.sender] -= __value;
 
         // Add tokens to recipient
         balanceOf[_to] += __value;
